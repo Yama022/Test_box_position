@@ -1,0 +1,141 @@
+body {
+    background-color: #EAFAF1;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+ 
+    border: 3px solid grey;
+    margin: auto;
+}
+
+.menu {
+    background-color: rgba(229, 102, 102, 0.9);   
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    position: fixed;
+    left: 362px;
+    right: 362px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+
+em {
+    font-style: italic;
+    text-decoration:underline;
+}
+
+
+
+img {
+    width: 250px;
+    margin: 1em;
+    
+}
+
+.desc {
+    color:rgb(229, 102, 102,);
+    font-style: italic;
+    font-size: 0.8em;
+    padding: 1em;
+    border: 1px solid grey;
+    width: 40%;
+}
+
+.poisson1 img, .poisson2 a, .poisson3 img, .poisson4 img {
+    align-self: flex-start;
+}
+
+.poisson {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 2em;
+}
+
+.poisson1, .poisson2, .poisson3, .poisson4 { 
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    transition: 0.7s;
+    box-shadow: 5px 5px 5px #707B7C ;
+    justify-content: space-between;
+}
+
+
+
+.poisson1 {
+    border: 2px solid red;
+    background-color: red;
+    margin: 50px;
+    max-width: 100%;
+
+    transition: 0.7s;
+    padding: 1em;
+}
+
+.poisson2 {
+    border: 2px solid yellow;
+    background-color: yellow;
+    margin: 50px;
+}
+
+.poisson3 {
+    border: 2px solid brown;
+    background-color: brown;
+    margin: 50px;
+    max-width: 100%;
+}
+
+.poisson4 {
+    border: 2px solid pink;
+    background-color: pink;
+    margin: 50px;
+    max-width: 100%;
+    position: relative;
+    
+}
+
+.name {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 3px solid red;
+    background-color: darkred;
+    color: white;
+    border-radius: 50%;
+    padding: 1em;
+    text-decoration: double underline;
+}
+
+.poisson1:hover, .poisson2:hover, .poisson3:hover, .poisson4:hover {
+    transform: scale(1.1);
+    background-color: #eee;
+    transition: 0.7s;
+    color: grey;
+    border: 3px solid red;
+}
+
+
+.Page2:hover {
+    color: teal;
+    transform: scale(0.8);
+    transition: 0.7s;
+}
+
+h3 {
+    font: italic;
+    font-size: 10em;
+    text-align: center;
+    color: red;
+    background-color: #F1948A;
+}
+
